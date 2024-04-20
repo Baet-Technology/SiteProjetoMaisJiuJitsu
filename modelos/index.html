@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <title>Projeto Mais Jiu-Jitsu</title>
+    <link rel="stylesheet" href="../modelos/estilo.css">
+    <link rel="stylesheet" href="../modelos/responsivo.css">
+</head>
+<body>
+    <header>
+        <div class="top">
+            <div class="logo">
+                <img src="../imagens/logo.png" alt="Imagem Logo" width="80">
+            </div>
+            <div class="nav">
+                <nav>
+                    <ul>
+                        <li><a href="#hrrs">Horários</a></li>
+                        <li><a href="#sbr">Sobre</a></li>
+                        <li><a href="#ftr">Contato</a></li>
+                        <span onclick="abrirMenu()" class="menu"><i class='bx bx-menu' id="burguer"  style='color:#ffffff' "></i></span>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    
+    <main>
+        <h1>PROJETO MAIS JIU-JITSU</h1>
+        <section class="pt1">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#000000" fill-opacity="1" d="M0,160L48,138.7C96,117,192,75,288,85.3C384,96,480,160,576,197.3C672,235,768,245,864,245.3C960,245,1056,235,1152,213.3C1248,192,1344,160,1392,144L1440,128L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path></svg>
+            <div class="horarios" id="hrrs">
+                <div class="horarios-left">
+                    <h2>Horários</h2>
+                    
+                    <h3>Sexta-Feira</h3>
+                    <span>
+                        <p>18:30h - Iniciantes</p>
+                        <p>19:40h - Adultos</p>
+                    </span>
+                    
+                    <h3>Sábado</h3>
+                    <span>
+                        <p>15:00h - Iniciantes</p>
+                        <p>16:20h - KID</p>
+                        <p>17:20h - Adultos</p>
+                    </span>
+                    
+                    <h3>Domingo</h3>
+                    <span>
+                        <p>14:00h - KIDS</p>
+                        <p>15:20h - Adultos</p>
+                    </span> 
+                </div>
+                <div class="img-right">
+                    .
+                </div>
+            </div>
+        </section>
+        <section class="pt2">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#000000" fill-opacity="1" d="M0,160L48,138.7C96,117,192,75,288,85.3C384,96,480,160,576,197.3C672,235,768,245,864,245.3C960,245,1056,235,1152,213.3C1248,192,1344,160,1392,144L1440,128L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path></svg>
+            <div class="sbr" id="sbr">
+                <div class="lg-left">
+                    <img src="../imagens/logo.png" alt="Logo" width="200">
+                </div>
+                <div class="sobre-right">
+                    <h2>Sobre</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore culpa quas qui! Odit dolores, hic explicabo eius doloremque ratione mollitia officia sunt iusto itaque sequi, quaerat tenetur repellat ex ducimus?
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, deserunt quibusdam! Ut labore repellendus laborum totam cumque ipsam eaque cupiditate maxime nihil veritatis, hic minus saepe incidunt. Modi, id repellendus.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia quod ullam esse magni, quas molestiae dolore qui aliquam amet repudiandae nihil eos laborum temporibus nobis cupiditate repellat, fugiat pariatur earum?Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam soluta aliquam quis placeat quae, autem ullam est corrupti illo consequatur quisquam dicta aut illum sapiente porro molestias itaque fugiat minus!
+                    </p>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <footer id="ftr">
+        <h4>CONTATOS</h4>
+        <div class="icon">
+            <a href="#"><img src="../imagens/whatsapp.ico" alt="whatsapp icone" width="24"></a>
+            
+            <a href="https://www.instagram.com/projetomaisjiujitsu?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank"><img src="../imagens/instagram.ico" alt="instagram icone" width="24"></a>
+        </div>
+        <p>&copy; 2024 POR BAET TECHNOLOGY | TODOS OS DIREITOS RESERVADOS.</p>
+    </footer>
+    
+    <nav class="nav-menu" id="teste">
+        <ul>
+            <li><a href="#hrrs">Horários</a></li>
+            <li><a href="#sbr">Sobre</a></li>
+            <li><a href="#ftr">Contato</a></li>
+        </ul>
+    </nav>
+    <div class="menu-cover" onclick="abrirMenu()"></div>
+    
+    <script src="script.js"></script>
+</body>
+</html>

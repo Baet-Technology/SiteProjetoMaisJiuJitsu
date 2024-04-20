@@ -1,0 +1,127 @@
+@media screen and (max-width: 500px) {
+    .nav nav ul li {
+        display: none;
+    }
+    
+    .menu {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 620px) {
+    .horarios {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .horarios-left {
+        border-radius: 10px 10px 0px 0px;
+        background-color: black;
+        color: white;
+        margin-top: 40px;
+    }
+
+    .horarios-left p {
+        text-align: justify;
+        display: flex;
+        justify-content: center;
+        letter-spacing: 1px;
+    }
+
+    .pt1 svg {
+        display: block;
+    }
+
+    .img-right {
+        width: 100%;
+        position: relative;
+        z-index: 1000;
+    }
+
+    .pt1 svg {
+        position: relative;
+        z-index: 1001;
+        transform: translateY(100px);
+        width: 100%;
+    }
+
+    .sbr {
+        display: grid;
+        place-items: center;
+    }
+
+    .sobre-right {
+        border: none;
+        
+    }
+
+    .lg-left {
+        margin-right: 0;
+    }
+}
+
+@media screen and (min-width: 1150px) {
+    
+    .horarios-left {
+        width: 400px;
+    }
+
+    .img-right {
+        width: 400px;
+    }
+}
+
+@media screen and (min-width: 1513px) {
+    
+    .horarios-left {
+        width: 600px;
+        height: 420px;
+
+    }
+
+    .horarios-left h2 {
+        font-size: 1.5em;
+        margin: 30px 0px 20px 0px;
+    }
+
+    .horarios-left h3 {
+        font-size: 1.2em;
+    }
+
+    .horarios-left p {
+        font-size: 1.1em;
+    }
+
+    .img-right {
+        width: 600px;
+        height: 420px;
+    }
+}
+
+@media screen and (min-width: 1850px) {
+    
+    .horarios-left {
+        width: 800px;
+        height: 490px;
+    }
+
+    .horarios-left h2 {
+        font-size: 1.8em;
+        margin: 50px 0px 20px 0px;
+    }
+
+    .horarios-left h3 {
+        font-size: 1.3em;
+        margin: 10px;
+    }
+
+    .horarios-left p {
+        font-size: 1.2em;
+    }
+
+    .img-right {
+        width: 800px;
+        height: 490px;
+    }
+}
+
